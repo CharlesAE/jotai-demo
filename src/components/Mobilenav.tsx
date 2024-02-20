@@ -9,13 +9,6 @@ import AuthButton from './AuthButton';
 
 const Mobilenav = () => {
     const [menu, menuToggle] = useAtom(showMenu);
-
-    const [auth, authToggle] = useAtom(toggleAuth);
-
-    function logIn() {
-      authToggle();
-      menuToggle();
-    }
   return (
     <div className={`${menu ? "fixed top-0 left-0 bottom-0" : 'hidden'} navbar-backdrop   bg-black bg-opacity-75  w-3/4 max-w-xs z-50`}>
           <div ></div>
@@ -33,7 +26,7 @@ const Mobilenav = () => {
                   <li className="py-3" onClick={menuToggle}>Resources</li>
                   <li className="py-3" onClick={menuToggle}>Pricing</li></ul>
             </div>
-            <AuthButton/>
+            <AuthButton mobile/>
           </nav>
         </div>
   )

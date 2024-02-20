@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Mobilenav from './Mobilenav'
 import { showMenu, toggleAuth } from '@/util/jotai_util';
 import { useAtom } from 'jotai';
+import AuthButton from './AuthButton';
 
 const Navbar = () => {
     const [_, menuToggle] = useAtom(showMenu);
@@ -32,11 +33,10 @@ const [auth, authToggle] = useAtom(toggleAuth);
         
               </div>
               <div className='hidden lg:block '>
-    {auth ? (
-<button className=" py-3 text-center font-bold" onClick={authToggle} > Log Out</button>
-) : (
-<button className=" py-3 text-center font-bold" onClick={authToggle} > Log In</button>
-)}
+
+              <AuthButton mobile={false}/>
+
+
       </div>
         </div>
           </div>
