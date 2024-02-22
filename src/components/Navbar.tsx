@@ -2,13 +2,12 @@
 import React from 'react'
 import Image from 'next/image'
 import Mobilenav from './Mobilenav'
-import { showMenu, toggleAuth } from '@/util/jotai_util';
+import { showMenu } from '@/util/jotai_util';
 import { useAtom } from 'jotai';
 import AuthButton from './AuthButton';
 
 const Navbar = () => {
     const [_, menuToggle] = useAtom(showMenu);
-const [auth, authToggle] = useAtom(toggleAuth);
   return (
     <section >
         <nav className="py-10">
