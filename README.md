@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jotai Demo
+<a name="readme-top"></a>
+[![NextJS]][NextJS-url]
+## About The Project
 
-## Getting Started
+![Jotai Demo][screenshot]
 
-First, run the development server:
+## This project is a demonstration of using the Jotai library for simple State Management in NextJS 14.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* [![React]][React-url]
+* [![Typescript]][Typescript-url]
 
-## Learn More
+* [![VSCode]][VSCode-url]
 
-To learn more about Next.js, take a look at the following resources:
+### Libraries / Frameworks Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* [![NextJS]][NextJS-url]
+* [Jotai][Jotai-url]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/CharlesAE/jotai-demo.git
+   ```
+2. Install Dependencies
+    ```sh
+    npm install
+    ```
+2. Run dev server
+    ```sh
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Screenshots
+Desktop            |  Mobile
+:-------------------------:|:-------------------------:
+![Desktop](https://raw.githubusercontent.com/CharlesAE/jotai-demo/main/screenshots/jotail.gif)  |   ![Mobile](https://raw.githubusercontent.com/CharlesAE/jotai-demo/main/screenshots/jotai_mobile.gif)  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contact
+
+Charles Edwards - [https://charlesae.dev](https://charlesae.dev)
+
+[![twitter-shield]][twitter-url]
+
+[![linkedin-shield]][linkedin-url]
+
+[![Medium]][Medium-url]
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+  <!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white
+[linkedin-url]: https://www.linkedin.com/in/charlesae/
+[twitter-shield]: https://img.shields.io/badge/Twitter-%231DA1F2.svg?&logo=twitter&logoColor=white&style=flat-square
+[twitter-url]:https://twitter.com/CharlesAE_Dev
+[VSCode]: https://img.shields.io/badge/Visual%20Studio%20Code-282C34.svg?style=flat-square&logo=visual-studio-code&logoColor=blue
+[VSCode-url]: https://code.visualstudio.com/
+[Jotai]: Jotai
+[jotai-url]: https://jotai.org/
+[React-url]: https://reactjs.org/
+[React]: https://img.shields.io/badge/-ReactJS-%23282C34?style=flat-square&logo=react
+[NextJS]: https://img.shields.io/badge/-NextJs-black?style=flat-square&logo=next.js
+[NextJS-url]: https://nextjs.org/
+[Medium]: https://img.shields.io/badge/medium-%2312100E.svg?&amp;style=for-the-badge&amp;logo=medium&amp;logoColor=white
+[Medium-url]: https://medium.com/@CharlesAE
+[Typescript-url]: https://typescriptlang.org/
+[Typescript]:https://img.shields.io/badge/-TypeScript-%23282C34?style=flat-square&logo=typescript&logoColor=007bcd
+[screenshot]: https://raw.githubusercontent.com/CharlesAE/jotai-demo/main/screenshots/banner.jpg
