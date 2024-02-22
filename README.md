@@ -44,7 +44,7 @@
 ### Screenshots
 Desktop            |  Mobile
 :-------------------------:|:-------------------------:
-![Desktop](https://raw.githubusercontent.com/CharlesAE/jotai-demo/main/screenshots/jotail.gif)  |   ![Mobile](https://raw.githubusercontent.com/CharlesAE/jotai-demo/main/screenshots/jotai_mobile.gif)  
+![Desktop](https://raw.githubusercontent.com/CharlesAE/jotai-demo/main/screenshots/jotai.gif)  |   ![Mobile](https://raw.githubusercontent.com/CharlesAE/jotai-demo/main/screenshots/jotai_mobile.gif)  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
